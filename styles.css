@@ -7,17 +7,26 @@ body/*selector*/ {/*start deklarasjon*/
     background-color: lightcoral; /* property: value; som en CSS Rule*/
 }/*stop deklarasjon*/
 
-/* flex skal alltid være på forelderen(boks element) på det du har lyst til å modifisere */
-/* må modifisere nav pga li er ett tekst element */
-/* ul kunne fungert */
+/* flex skal alltid være på forelderen i react*/
+/* i react arver alle barn og barnebarn fra foreldre*/
 ul {
+    /* prosent-verdier er en heksegryte, med tanke på arv*/
+    /* position går på z aksen, problem med responsive sider seinere. Lærer om det seinere*/
+    display: flex;/*flexbox er utdatert. Plasseres ofte øverst*/
+    justify-content: end; /*får ting over hoved aksen x.... og center mest brukt*/
+    gap: 15px;/* lager mellomrom */
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 
-nav {
-    display: flex;/*flexbox er utdatert*/
-    
+#home/*id*/{
 }
+
+.listItem/*klasse*/{
+
+}
+
+
 
