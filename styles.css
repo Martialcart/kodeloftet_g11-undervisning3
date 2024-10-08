@@ -1,0 +1,23 @@
+/* External CSS */
+/* ctrl ' for kommentar */
+
+/* marker tag i inspect for å se css og kunne bruke check marks */
+
+body/*selector*/ {/*start deklarasjon*/    
+    background-color: lightcoral; /* property: value; som en CSS Rule*/
+}/*stop deklarasjon*/
+
+/* flex skal alltid være på forelderen(boks element) på det du har lyst til å modifisere */
+/* må modifisere nav pga li er ett tekst element */
+/* ul kunne fungert */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;/*flexbox er utdatert*/
+    
+}
+
