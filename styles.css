@@ -13,19 +13,18 @@ ul {
     /* prosent-verdier er en heksegryte, med tanke på arv*/
     /* position går på z aksen, problem med responsive sider seinere. Lærer om det seinere*/
     display: flex;/*flexbox er utdatert. Plasseres ofte øverst*/
-    justify-content: end; /*får ting over hoved aksen x.... og center mest brukt*/
+    justify-content: center; /*får ting over hoved aksen x.... og center mest brukt*/
     gap: 15px;/* lager mellomrom */
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 #home/*id*/{
 }
 
 .listItem/*klasse*/{
-
+	
 }
 
 
