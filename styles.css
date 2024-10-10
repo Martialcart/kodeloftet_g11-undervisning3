@@ -54,3 +54,9 @@ footer {
     background-color: aquamarine;
 }
 
+.fancy{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 113, 241, 0.678);
+    border-radius: 0px 20px 20px 0px;
+}
+
