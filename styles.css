@@ -4,16 +4,22 @@
 /* marker tag i inspect for å se css og kunne bruke check marks */
 
 body/*selector*/ {/*start deklarasjon*/    
-    background-color: lightcoral; /* property: value; som en CSS Rule*/
+    background-color: cornsilk;
 }/*stop deklarasjon*/
+
+header {
+    background-image: url(img/cookie.jpg); /* property: value; som en CSS Rule*/
+    background-size: cover;
+    padding-top: 100px;
+}
 
 /* flex skal alltid være på forelderen i react*/
 /* i react arver alle barn og barnebarn fra foreldre*/
-ul {
+#navi {
     /* prosent-verdier er en heksegryte, med tanke på arv*/
     /* position går på z aksen, problem med responsive sider seinere. Lærer om det seinere*/
     display: flex;/*flexbox er utdatert. Plasseres ofte øverst*/
-    justify-content: center; /*får ting over hoved aksen x.... og center mest brukt*/
+    justify-content: end; /*får ting over hoved aksen x.... og center mest brukt*/
     gap: 15px;/* lager mellomrom */
     list-style-type: none;
     margin: 0;
@@ -23,9 +29,31 @@ ul {
 #home/*id*/{
 }
 
-.listItem/*klasse*/{
-	
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
+#header_text {
+    font-size: 70px;
+    display: flex;
+    justify-content: startS;
+    background-color: antiquewhite;
+}
 
+.listItem/*klasse*/{
+    background-color: hsla(219, 61%, 48%, 0.829);
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.icon {
+    max-height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
 
