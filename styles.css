@@ -26,13 +26,11 @@ header {
     padding: 0;
 }
 
-#home/*id*/{
-}
-
 .tiles{
     display: flex;
     flex-wrap: wrap;
-
+    list-style-type: none;
+    gap: 15px;
 }
 
 #header_text {
@@ -53,7 +51,6 @@ header {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    background-color: aquamarine;
 }
 
